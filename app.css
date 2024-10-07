@@ -29,8 +29,11 @@ body{
 #header{
     width: fit-content;
     margin: auto;
+    display: flex;
 }
-
+#header img{
+    padding: 1%;
+}
 #headerHolder ul {
     list-style-type: none;
     margin: 0;
