@@ -2,6 +2,63 @@
     margin: 0;
     padding: 0;
 }
-#header{
-    align-items: center;
+
+@font-face {
+    font-family: Farm;
+    src: url(./assets/Autumn\ Children.ttf);
 }
+
+body{
+    background-image: url(./assets/image/farming.jpg);
+    background-size: 10%;
+}
+
+#content{
+    width: 65%;
+    height: 100vh;
+    margin: auto;
+    background-color: whitesmoke;
+    /*background-image: url(./assets/image/white.jpg);*/
+}
+
+#headerHolder{
+    font-family: Farm;
+    padding-top: 20px;
+}
+
+#header{
+    width: fit-content;
+    margin: auto;
+}
+
+#headerHolder ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+}
+  
+#headerHolder li {
+    float: left;
+  }
+  
+#headerHolder li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+ 
+#headerHolder li a:hover {
+    background-color: #111;
+  }
+
+  #headerNav{
+    width: 100%;
+  }
