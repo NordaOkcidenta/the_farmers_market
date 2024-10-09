@@ -18,15 +18,15 @@ body{
     align-self: center;
 }
 #content{
+    font-family: Farm;
     width: 65%;
-    height: 100vh;
+    height: 100%;
     margin: auto;
     background-color: whitesmoke;
     /*background-image: url(./assets/image/white.jpg);*/
 }
 
 #headerHolder{
-    font-family: Farm;
     padding-top: 20px;
 }
 
@@ -72,13 +72,14 @@ body{
   }
   .sidenav {
   width: 130px;
-  position: fixed;
+  /* position: fixed; */
   z-index: 1;
   top: 20px;
   left: 10px;
   background: #eee;
   overflow-x: hidden;
-  padding: 8px 0;
+  padding: 8px 10px;
+  margin:10px;
 }
 
 .sidenav a {
@@ -103,36 +104,13 @@ body{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-.sidenav {
-    width: 130px;
-    position: fixed;
-    z-index: 1;
-    top: 20px;
-    left: 10px;
-    background: #eee;
-    overflow-x: hidden;
-    padding: 8px 0;
-  }
-  
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #2196F3;
-    display: block;
-  }
-  
-  .sidenav a:hover {
-    color: #064579;
-  }
-  
-  .main {
-    margin-left: 140px; /* Same width as the sidebar + left position in px */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+.footer {
+    position: absolute;
+    left: 17.5%;
+    /* bottom: 0px; */
+    width: 65%;
+    margin: auto;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
