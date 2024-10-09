@@ -20,7 +20,7 @@ body{
 #content{
     font-family: Farm;
     width: 65%;
-    height: 200vh;
+    height: 150vh;
     margin: auto;
     background-color: whitesmoke;
     /*background-image: url(./assets/image/white.jpg);*/
@@ -126,7 +126,7 @@ body{
 .footer {
     position: absolute;
     left: 17.5%;
-    top: 199vh;
+    top: 149vh;
     width: 65%;
     margin: auto;
     background-color: pink;
